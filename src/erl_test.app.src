@@ -1,0 +1,13 @@
+
+{application, erl_test,
+	      [{description, "A simple application for testing erlang tools"},
+	      	{vsn, "1.0"},
+		{modules, [
+				erl_test_app,
+				erl_test_sup,
+				erl_test
+			]},
+		{registered, [erl_test_sup]},
+		{applications, [kernel, stdlib]},
+		{mod, {erl_test_app, []}}
+]}.
