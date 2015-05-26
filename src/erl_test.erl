@@ -11,6 +11,7 @@
 -behaviour(gen_server).
 
 %% First commit to test rebase.
+%% Second commit to test rebase.
 
 %% API
 -export([start/0, start/1, stop/0, start_link/0]).
