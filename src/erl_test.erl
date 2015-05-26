@@ -10,8 +10,9 @@
 
 -behaviour(gen_server).
 
-%% First commit to test rebase.
-%% Second commit to test rebase.
+%% First commit to test 'get rebase' tool.
+%% Second commit to test 'git rebase' tool.
+%% Third commit to test 'git rebase' tool.
 
 %% API
 -export([start/0, start/1, stop/0, start_link/0]).
