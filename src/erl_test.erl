@@ -22,6 +22,8 @@
 -record(state, {}).
 
 %% First commit.
+%% Second commit.
+%% Third commit.
 
 %%%===================================================================
 %%% API
